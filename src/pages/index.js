@@ -1,3 +1,14 @@
-import React from "react"
+import React from 'react'
+import '../styles/globalStyles.css'
+import '../styles/hamburgers.css'
+import Layout from '../components/layout'
 
-export default () => <div>Hello world!</div>
+const App = () => {
+  return (
+    <Layout>
+      <p>Hello</p>
+    </Layout>
+  )
+}
+
+export default App
